@@ -1,3 +1,3 @@
 # d3-ext
 d3 extensions: 
-arrow polygens: given tow points and width, calculate a polygen ended with an arrow.
+arrow polygons: given tow points and width, calculate a polygon ended with an arrow.
