@@ -19,7 +19,10 @@
 
 //            var p = d3.polya().layout( [ 40, 40 ], [ 100, 100 ],  10 );
 //            var p = d3.polya().layout( [ 40, 100 ], [ 100, 100 ],  10 );
-            var p = d3.polya().layout( [ 100, 100 ],[ 40, 40 ],  10 );
+
+            var p = d3.polya().layout( [ 100, 100 ],[ 200, 40 ],  10 );
+//            var p = d3.polya().layout( [ 100, 100 ],[ 40, 40 ],  10 );
+
             svg.append( "g")
                     .attr( "transform", p.transform() )
                     .append( "polygon")

@@ -36,7 +36,7 @@ d3.polya =  function(){
 
         var v1 = { x: hend.x - start.x, y: hend.y - start.y };
         var v2 = {x: end.x - start.x, y: end.y - start.y};
-        var angle = Math.acos( ( v1.x * v2.x + v1.y * v2.y )/(len*len) ) / Math.PI * 180;
+        var angle = ( Math.atan2( v2.y, v2.x ) - Math.atan2( v1.y, v1.x ))/ Math.PI * 180;
         var trans = "rotate("+angle + " "+start.x +" "+start.y +")";
 
         polya.ps = str;
